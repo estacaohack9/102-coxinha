@@ -56,9 +56,10 @@ aside{
 }
 
 .tutorial{
+    margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #coxinha{
@@ -84,3 +85,15 @@ aside{
     background-color: blueviolet;
 }
 
+.receita p{
+    margin: 0
+}
+
+.receita p:last-of-type{
+    font-size: 0.8em;
+}
+
+.receita img{
+    border: 2px solid red;
+    padding: 10px;
+}
